@@ -1,4 +1,8 @@
-"""This encapsulates the logic of each user action as command object"""
+"""This encapsulates the logic of each user action as command object
+
+This follows the command pattern of writing software:
+source: https://en.wikipedia.org/wiki/Command_pattern
+"""
 
 from database import DatabaseManager
 from datetime import datetime
@@ -11,7 +15,7 @@ import sys
 db = DatabaseManager("bookmarks.db")
 
 
-# but why create it as a class? and not just a method
+# but why create it as a class? and not just a method, because of the command pattern
 class CreateBookmarksTableCommand:
     def execute(self):
         db.create_table(
