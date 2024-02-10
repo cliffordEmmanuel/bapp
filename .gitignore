@@ -1,0 +1,5 @@
+# Ignore JetBrains RubyMine IDE settings
+/.idea
+
+# Byte-compiled
+__pycache__/
