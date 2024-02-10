@@ -3,3 +3,8 @@
 
 # Byte-compiled
 __pycache__/
+
+
+.env
+
+*.sqlite
