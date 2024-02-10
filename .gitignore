@@ -1,10 +1,5 @@
-# Ignore the default SQLite database.
-/db/*.sqlite3
-*.db
-
 # Ignore JetBrains RubyMine IDE settings
 /.idea
 
 # Byte-compiled
 __pycache__/
-
